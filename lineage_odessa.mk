@@ -33,6 +33,12 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Signing Build
 #-include vendor/lineage-priv/keys/keys.mk
 
+# AxionOS
+AXION_MAINTAINER := thiaguin81
+AXION_PROCESSOR := Snapdragon_730G
+TARGET_ENABLE_BLUR := false
+TARGET_INCLUDE_VIPERFX := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
 PRODUCT_DEVICE := odessa
