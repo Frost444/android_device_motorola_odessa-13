@@ -21,8 +21,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.vendor.sensors.glance_approach=false
 
 # LOS
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.lineage.maintainer=thiaguin81
+#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+#    ro.lineage.maintainer=thiaguin81
 
 # SIM
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
