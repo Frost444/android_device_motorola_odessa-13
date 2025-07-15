@@ -32,7 +32,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 -include vendor/lineage-priv/keys/keys.mk
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_odessa
+PRODUCT_NAME := derp_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus
