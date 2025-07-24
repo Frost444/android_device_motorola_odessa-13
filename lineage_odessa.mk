@@ -21,8 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from odessa device
 $(call inherit-product, device/motorola/odessa/device.mk)
 
-TARGET_SUPPORTS_OMX_SERVICE := false
-
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
