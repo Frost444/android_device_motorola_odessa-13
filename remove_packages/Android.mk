@@ -11,8 +11,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     Maps \
     YouTube \
     DeviceIntelligenceNetworkPrebuilt-U.21_playstore_astrea_20240222.00_RC01 \
-    FilesPrebuilt \
-    DocumentsUIGoogle \
     GoogleOneTimeInitializer \
     AICorePrebuilt-aicore_20240509.01_RC02 \
     YouTubeMusic \
@@ -28,7 +26,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     PrebuiltGmail \
     GoogleFeedback \
     TagGoogle \
-    AndroidAutoStubPrebuilt \
     TurboPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
