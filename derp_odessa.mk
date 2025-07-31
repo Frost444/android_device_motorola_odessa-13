@@ -24,6 +24,9 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
+# Gapps
+TARGET_USES_MINI_GAPPS := true
+
 # Flags
 TARGET_DISABLE_EPPE := true
 TARGET_BOOT_ANIMATION_RES := 1080
