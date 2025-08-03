@@ -23,8 +23,3 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # LOS
 #PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 #    ro.lineage.maintainer=thiaguin81
-
-# SIM
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.multisim.simslotcount=2 \
-    persist.radio.multisim.config=dsds
