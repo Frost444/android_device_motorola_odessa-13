@@ -32,6 +32,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := false
 INFINITY_MAINTAINER := "dias.thiago__"
 WITH_GAPPS := true
+TARGET_USES_MINI_GAPPS := true
 
 # Signing Build
 #-include vendor/lineage-priv/keys/keys.mk
