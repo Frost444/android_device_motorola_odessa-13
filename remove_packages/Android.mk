@@ -23,7 +23,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     PrebuiltGmail \
     GoogleFeedback \
     TagGoogle \
-    AndroidAutoStubPrebuilt \
     TurboPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
