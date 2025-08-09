@@ -35,7 +35,7 @@ WITH_GAPPS := true
 TARGET_USES_MINI_GAPPS := true
 
 # Signing Build
-#-include vendor/lineage-priv/keys/keys.mk
+-include vendor/infinity-priv/keys/keys.mk
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := infinity_odessa
