@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_odessa.mk
+    $(LOCAL_DIR)/derp_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_odessa-eng \
-    aosp_odessa-user \
-    aosp_odessa-userdebug
+    derp_odessa-eng \
+    derp_odessa-user \
+    derp_odessa-userdebug
