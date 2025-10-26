@@ -22,24 +22,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/odessa/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Flags
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := false
 
-# Camera information (multiple sensors supported)
-AXION_CAMERA_REAR_INFO := 64,2
-AXION_CAMERA_FRONT_INFO := 8
-
-# Maintainer name (underscores become spaces in the UI)
-AXION_MAINTAINER := thiagochizz
-
-# Processor name (underscores become spaces)
-AXION_PROCESSOR := Snapdragon_730G
+# infinity
+INFINITY_MAINTAINER := "dias.thiago__"
+WITH_GAPPS := false
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_odessa
+PRODUCT_NAME := infinity_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus

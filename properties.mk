@@ -24,3 +24,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.multisim.simslotcount=2 \
     persist.radio.multisim.config=dsds
+
+# infinity
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.infinity.soc=Snapdragon™ 730G \
+    ro.infinity.battery=5000 mAh \
+    ro.infinity.display=1080 x 2400 , 60Hz \
+    ro.infinity.camera=64MP + 8MP + 2MP \
+    ro.product.marketname=Moto G9 Plus
