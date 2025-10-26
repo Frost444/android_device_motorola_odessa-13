@@ -26,6 +26,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Flags
 TARGET_DISABLE_EPPE := true
+TARGET_ENABLE_BLUR := false
+
+# Camera information (multiple sensors supported)
+AXION_CAMERA_REAR_INFO := 64,2
+AXION_CAMERA_FRONT_INFO := 8
+
+# Maintainer name (underscores become spaces in the UI)
+AXION_MAINTAINER := thiagochizz
+
+# Processor name (underscores become spaces)
+AXION_PROCESSOR := Snapdragon_730G
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
