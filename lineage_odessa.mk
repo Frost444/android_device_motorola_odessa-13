@@ -33,7 +33,7 @@ AXION_CAMERA_REAR_INFO := 64,2
 AXION_CAMERA_FRONT_INFO := 8
 
 # Maintainer name (underscores become spaces in the UI)
-AXION_MAINTAINER := thiagochizz
+AXION_MAINTAINER := ThiagoJurema
 
 # Processor name (underscores become spaces)
 AXION_PROCESSOR := Snapdragon_730G
