@@ -34,7 +34,7 @@ BUILD_BCR := false
 TARGET_HAS_UDFPS := false
 TARGET_INCLUDE_ACCORD := false
 
--include vendor/evolution-priv/keys/keys.mk
+#-include vendor/evolution-priv/keys/keys.mk
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
