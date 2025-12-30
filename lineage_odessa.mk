@@ -28,8 +28,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := false
 
--include vendor/lineage-priv/keys/keys.mk
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_odessa
 PRODUCT_DEVICE := odessa
