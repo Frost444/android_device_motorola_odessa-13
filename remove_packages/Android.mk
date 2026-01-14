@@ -11,6 +11,11 @@ LOCAL_OVERRIDES_PACKAGES := \
     Maps \
     YouTube \
     YouTubeMusic \
+    AICorePrebuilt-aicore_20250130.00_RC01 \
+    BetterBugStub \
+    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC0 \
+    SettingsIntelligenceGooglePrebuilt \
+    WellbeingPrebuilt \
     ScribePrebuilt \
     Videos \
     MeetPrebuilt_20240128 \
