@@ -13,7 +13,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     YouTubeMusic \
     AICorePrebuilt-aicore_20250130.00_RC01 \
     BetterBugStub \
-    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC0 \
+    DeviceIntelligenceNetworkPrebuilt-bfinal_astrea_20250217.00_RC00 \
     SettingsIntelligenceGooglePrebuilt \
     WellbeingPrebuilt \
     ScribePrebuilt \
