@@ -22,17 +22,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/odessa/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/custom/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Flags
 WITH_GMS := true
 TARGET_USES_MINI_GAPPS := true
 TARGET_HAS_UDFPS := false 
 TARGET_DISABLE_EPPE := true
+BUILD_BCR := false
 TARGET_ENABLE_BLUR := false
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := custom_odessa
+PRODUCT_NAME := lineage_odessa
 PRODUCT_DEVICE := odessa
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus

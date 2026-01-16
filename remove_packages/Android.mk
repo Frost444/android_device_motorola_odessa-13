@@ -13,23 +13,30 @@ LOCAL_OVERRIDES_PACKAGES := \
     YouTubeMusic \
     AICorePrebuilt-aicore_20250130.00_RC01 \
     BetterBugStub \
-    DeviceIntelligenceNetworkPrebuilt-bfinal_astrea_20250217.00_RC00 \
+    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
     SettingsIntelligenceGooglePrebuilt \
     WellbeingPrebuilt \
     ScribePrebuilt \
     Videos \
+    ConfigUpdater \
+    FilesPrebuilt \
+    arcore-1.48 \
     MeetPrebuilt_20240128 \
+    GoogleRestorePrebuilt-v793553 \
     PlayAutoInstallConfig \
+    HealthIntelligencePrebuilt \
+    GoogleFeedback \
+    KidsSupervisionStub \
     SwitchAccessPrebuilt \
     TurboAdapter \
+    TurboPrebuilt \
     talkback \
     YouTube \
     GoogleTTS \
     PrebuiltGmail \
     GoogleFeedback \
     TagGoogle \
-    StorageManagerGoogle \
-    TurboPrebuilt
+    StorageManagerGoogle
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
