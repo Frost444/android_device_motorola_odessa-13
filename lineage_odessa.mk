@@ -25,11 +25,7 @@ $(call inherit-product, device/motorola/odessa/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Flags
-WITH_GMS := true
-TARGET_USES_MINI_GAPPS := true
-TARGET_HAS_UDFPS := false 
 TARGET_DISABLE_EPPE := true
-BUILD_BCR := false
 TARGET_ENABLE_BLUR := false
 
 # Device identifier. This must come after all inclusions.
