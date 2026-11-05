@@ -145,7 +145,13 @@
 
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
-    <bool name="config_dozeAlwaysOnEnabled">true</bool>
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- Ambient display (pulse on notifications) is disabled by default. -->
+    <bool name="config_dozeEnabled">false</bool>
+
+    <!-- Pick up gesture for ambient display is disabled by default. -->
+    <bool name="config_dozePickupGestureEnabled">false</bool>
 
     <!-- Flag indicating whether the surface flinger has limited
          alpha compositing functionality in hardware.  If set, the window

@@ -1,0 +1,27 @@
+From 3337b0fa029ca03c463fcebb508ba020cd87e6e4 Mon Sep 17 00:00:00 2001
+From: Thiago <thigo6617@gmail.com>
+Date: Thu, 5 Nov 2026 22:39:12 +0000
+Subject: [PATCH] MotoActions: Disable ambient display by default
+
+Match the framework default (config_dozeEnabled=false) when
+Settings.Secure.DOZE_ENABLED has not been set yet.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ .../src/org/lineageos/settings/device/MotoActionsSettings.kt    | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/packages/MotoActions/src/org/lineageos/settings/device/MotoActionsSettings.kt b/packages/MotoActions/src/org/lineageos/settings/device/MotoActionsSettings.kt
+index ba33ca3..0e9165f 100644
+--- a/packages/MotoActions/src/org/lineageos/settings/device/MotoActionsSettings.kt
++++ b/packages/MotoActions/src/org/lineageos/settings/device/MotoActionsSettings.kt
+@@ -51,5 +51,5 @@ object MotoActionsSettings {
+         )
+ 
+     fun isDozeEnabled(context: Context): Boolean =
+-        Settings.Secure.getInt(context.contentResolver, Settings.Secure.DOZE_ENABLED, 1) != 0
++        Settings.Secure.getInt(context.contentResolver, Settings.Secure.DOZE_ENABLED, 0) != 0
+ }
+-- 
+2.43.0
+
